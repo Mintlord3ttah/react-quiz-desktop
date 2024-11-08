@@ -1,0 +1,95 @@
+[
+  {
+    "subject": "html",
+    "questions": [
+      {
+        "q": "what is the latest version of html",
+        "options": ["HTML2", "HTML5", "HTML@latest", "none of these"],
+        "answer": 1
+      },
+      {
+        "q": "what element or tag is used to display and image",
+        "options": ["image", "img", "photo", "all of the above"],
+        "answer": 1
+      },
+      {
+        "q": "explain in simple terms what html is used for",
+        "options": [
+          "html is used for styling the content of a web page",
+          "html is a language for the web",
+          "html is basically used to build the content of a web page",
+          "html is simply used to build and style an entire web page"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "mention the root element of a html file",
+        "options": ["html", "<!DOCTYPE html>", "body", "head"],
+        "answer": 0
+      },
+      {
+        "q": "define entities in html",
+        "options": [
+          "entities in html are those tags that are self enclosing",
+          "there is nothing like entities in html",
+          "html entities are those special characters that are not present on our keyboard",
+          "all characters are entities in html"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "subject": "css",
+    "questions": [
+      {
+        "q": "what is the full meaning of css",
+        "options": [
+          "cascading styleshet",
+          "common stylesheet",
+          "computer system style",
+          "cascading stylsheet"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "aside css which other language is used for styling web content",
+        "options": ["SASS", "tailwind.css", "bootstrap", "all of the above"],
+        "answer": 3
+      },
+      {
+        "q": "what are the fetures of css",
+        "options": [
+          "style web content, animations, transform shapes",
+          "build web page, style web page",
+          "interactivity, animations, transform shapes",
+          "design, build content, animations"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "what's the css property to transform text to uppercase",
+        "options": [
+          "transform: uppercase",
+          "font-style: uppercase",
+          "text-transform: uppercase",
+          "text-style: uppercase"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "which is not the value for border property",
+        "options": ["none", "italic", "dash", "solid"],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "subject": "javascript",
+    "questions": []
+  },
+  {
+    "subject": "react",
+    "questions": []
+  }
+]

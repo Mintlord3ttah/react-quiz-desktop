@@ -1,0 +1,24 @@
+.outer{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    background: conic-gradient(blue 0deg, #cccbcb 0deg );
+    cursor: pointer;
+}
+.inner {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    background-color: #fff;
+    font-weight: 600;
+    transition: all 0.5s ease;
+}
+.scale-big{
+    transition: all 0.5s ease;
+}
+.inner:hover > .scale-big{
+    transform: scale(1.3);
+}
+.inner:hover{
+    background-color: #24e0e0;
+}

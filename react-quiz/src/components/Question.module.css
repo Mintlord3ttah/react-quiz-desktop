@@ -1,0 +1,72 @@
+.question{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    height: 45rem;
+    padding: 0 5rem;
+    position: relative;
+}
+.q-heading{
+    background-color: aliceblue;
+    font-size: 2rem;
+}
+.q-options{
+    list-style:upper-alpha inside;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+}
+/* 
+div { // shorthand animation order
+    animation-name: example;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+} */
+.q-options>*{
+    background-color: var(--primary-color);
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    /* transform: scale(-1,1); */
+    transition: all 0.5s ease;
+    animation-name: animationLi;
+    animation-duration: 1s;
+}
+@keyframes animationLi {
+   from{transform: scale(-1, 1)}
+   to{transform: scale(1, 1)}
+}
+/* .q-options >.animationLi{
+    transform: scale(1, 1);
+} */
+.q-options>*:hover{
+    transform: scale(1.1);
+}
+.wrap-up{
+    width: 70rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    }
+    .ctrls-btn{
+        display: flex;
+            justify-content: space-between;
+    }
+.correct{
+    background-color: #0baa0b;
+} 
+.wrong {
+    background-color: #e74545;
+}
+@media (max-width: 800px){
+    .wrap-up{
+        width: 100%;
+    }
+}

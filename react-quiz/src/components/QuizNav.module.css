@@ -1,0 +1,16 @@
+.quiz-nav{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    padding: 2rem 4rem;
+    background-color: var(--primary-color);
+}
+.count-down-timer{
+    color: #0baa0b;
+    font-weight: 600;
+    font-size: 3rem;
+    justify-self: center;
+}
+.wrap{
+    justify-self: end;
+}
